@@ -1,4 +1,4 @@
-# Go examples　of　test　code
+# Go examples of test code
 
 ## To run a test
 
