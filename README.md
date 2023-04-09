@@ -39,3 +39,7 @@ PASS
 ここに後処理を書く
 ok      github.com/ys-office-llc/Go_Examples-of-test-code/calc  0.001s  coverage: 100.0% of statements
 ```
+
+## Bibliography
+- [テスト（go test/testing）](https://www.twihike.dev/docs/golang-primer/testing)
+- [Effective Go](https://go.dev/doc/effective_go)
