@@ -20,7 +20,7 @@ var users = []User{
 	{3, "Bob Smith", "bob@example.com"},
 }
 
-func init() {
+func Run() {
 	router := gin.Default()
 	router.GET("/users", GetUsers)
 	router.Run(":8080")
