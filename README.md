@@ -17,3 +17,11 @@ make cover
 ```shell
 make open
 ```
+
+## Execution sample
+
+```shell
+$ make test
+go test -coverprofile=coverage.out ./...
+ok      github.com/ys-office-llc/Go_Examples-of-test-code/calc  0.001s  coverage: 100.0% of statements
+```
