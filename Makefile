@@ -1,7 +1,7 @@
 # Makefile
 
 test:
-	go test -coverprofile=coverage.out ./...
+	go test -v -coverprofile=coverage.out ./...
 
 cover:
 	go tool cover -html=coverage.out -o coverage.html
