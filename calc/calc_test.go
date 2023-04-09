@@ -1,10 +1,21 @@
 package calc_test
 
 import (
+	"fmt"
+	"os"
 	"testing"
 
 	"github.com/ys-office-llc/Go_Examples-of-test-code/calc"
 )
+
+// 前処理、後処理追加
+
+func TestMain(t *testing.M) {
+	fmt.Println("ここに前処理を書く")
+	code := t.Run()
+	fmt.Println("ここに後処理を書く")
+	os.Exit(code)
+}
 
 // テーブルテスト
 func TestMaxTableDrivenTests(t *testing.T) {
