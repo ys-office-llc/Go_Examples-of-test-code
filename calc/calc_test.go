@@ -8,8 +8,14 @@ import (
 	"github.com/ys-office-llc/Go_Examples-of-test-code/calc"
 )
 
-// 前処理、後処理追加
+// テスト可能なサンプル
+func ExampleMax() {
+	fmt.Println(calc.Max(1, 2))
+	// Output:
+	// 2
+}
 
+// 前処理、後処理追加
 func TestMain(t *testing.M) {
 	fmt.Println("ここに前処理を書く")
 	code := t.Run()
